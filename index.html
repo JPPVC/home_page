@@ -4,13 +4,23 @@
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>JPPVC homepage</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-		<script src="index.js"></script>
+		<link href="./index.css" rel="stylesheet">
 	</head>
 	<body>
-		<div ng-app="JPPVCApp" ng-controller="Controller">
-			<p>{{ "Hello" + name + "!"}}</p>
+		<div class="wrapper">
+		<div>
+			<p class="wrapper-header">First</p>
+			<p class="wrapper-subheader">Second</p>
+			<p class="wrapper-paragraph">Third</p>
 		</div>
-			
+		
+		<div class="wrapper-middle">
+			<iframe id="feed" title="Feed" src="feedpage.html" height=100% width=100% frameborder=0></iframe>
+		</div>
+		
+		<div>
+			<p>third</p>
+		</div>	
+		</div>	
 	</body>
 </html>
