@@ -5,20 +5,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>JPPVC homepage</title>
 		<link href="./index.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="index.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
-		<div>
-			<p class="wrapper-header">First</p>
-			<p class="wrapper-subheader">Second</p>
-			<p class="wrapper-paragraph">Third</p>
+		<div class="col1">
+			<p class="wrapper-header">Tópicos</p>
+			<div class="wrapper-paragraph">
+				<button id="blog-feed-b">Blog Feed</button>
+				<button id="about-me-b">About Me</button>
+				<button id="artigos-b">Articles</button>
+				<button id="projects-b">Projects</button>
+				<button id="link-b">Links</button>
+				<button id="about-page-b">About Page</button>
+			</div>
 		</div>
 		
 		<div class="wrapper-middle">
 			<iframe id="feed" title="Feed" src="feedpage.html" height=100% width=100% frameborder=0></iframe>
 		</div>
 		
-		<div>
+		<div class="col2">
 			<p>third</p>
 		</div>	
 		</div>	
