@@ -1,9 +1,9 @@
-
-window.onload = () => {
+$(document).ready(function() {
+	$('#blog-feed-b').click(function() {
+    		
+	});
 	
-	var app = angular.module('JPPVCApp', [])
-	app.controller('Controller' ($scope) => {
-		$scope.name = 'USER'
-	})
+	$('#about-me-b').click(function() {
 
-}
+	});
+});

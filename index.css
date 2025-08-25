@@ -23,6 +23,11 @@ html, body {
 	.wrapper-paragraph {
 		font-size: 1.2rem;
 	}
+	button {
+		all: unset;
+		min-width: 100%;
+		
+	}
 }
 
 @media screen and (width < 600px) {
@@ -42,12 +47,26 @@ html, body {
 	.wrapper-paragraph {
 		font-size: 0.2rem;
 	}
+	button {
+		all: unset;
+		min-width: 100%;
+	}
 }
-
-
 
 #feed {
 	min-width: 100%;
 	min-height: 100%;
 	flex-grow: 1;
+}
+
+.col1 {
+	background-color: #90e0ef;
+	padding-left: 1.5rem;
+	float: left;
+}
+
+.col2 {
+	background-color: #caf0f8;
+	padding-left: 1.5rem;
+	float: left;
 }
